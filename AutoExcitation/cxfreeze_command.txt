@@ -1,0 +1,1 @@
+cxfreeze "C:\TestEnv\PycharmProject\Autoexcitation\main.py" --target-dir="C:\TestEnv\PycharmProject\Autoexcitation\bin" --target-name="AutoExcit.exe" --icon="icon.ico" --base-name=win32gui
