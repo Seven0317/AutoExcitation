@@ -67,7 +67,7 @@ class MainWindow(QMainWindow):
             timer = threading.Timer(60, fun_display)
             timer.start()
         # 启动应用5s后第一次显示句子
-        timer = threading.Timer(5, fun_display)
+        timer = threading.Timer(2, fun_display)
         timer.start()
 
     # 重构主窗体的closeEvent() 函数，关闭窗口后，子线程同时退出

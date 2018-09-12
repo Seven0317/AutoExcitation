@@ -1,0 +1,16 @@
+2018-09-12 15:14:14 [fileLogger] [INFO] :20: Initialise app successfully.
+2018-09-12 15:14:16 [root] [INFO] :20: Read form resource.json.
+2018-09-12 15:14:16 [root] [INFO] :20: Pop data from resource.json.
+2018-09-12 15:14:16 [root] [INFO] :20: Delete all data left in resource.json.
+2018-09-12 15:14:16 [root] [INFO] :20: Update data of resource.json.
+2018-09-12 15:14:16 [fileLogger] [INFO] :20: Display text successfully.
+2018-09-12 15:14:26 [root] [INFO] :20: Initialize web driver(chrome) successfully.
+2018-09-12 15:14:56 [root] [INFO] :20: Crawl data successfully.
+2018-09-12 15:14:56 [root] [INFO] :20: Create a lock file.
+2018-09-12 15:14:56 [fileLogger] [INFO] :20: Crawled data was already in resource.json.
+2018-09-12 15:14:56 [root] [INFO] :20: Delete file for locking.
+2018-09-12 15:15:16 [root] [INFO] :20: Read form resource.json.
+2018-09-12 15:15:16 [root] [INFO] :20: Pop data from resource.json.
+2018-09-12 15:15:16 [root] [INFO] :20: Delete all data left in resource.json.
+2018-09-12 15:15:16 [root] [INFO] :20: Update data of resource.json.
+2018-09-12 15:15:16 [fileLogger] [INFO] :20: Display text successfully.

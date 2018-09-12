@@ -12,6 +12,7 @@ from displayer.main_window import display, app
 # Set up logger by log.yaml
 setup_logging(default_path=os.path.join(os.getcwd(), r"log.yaml"))
 logger = logging.getLogger("fileLogger")
+
 # Init app
 try:
     App = app
@@ -19,12 +20,14 @@ try:
 except Exception as e:
     logger.error(e)
     logger.error("Initialise app failed")
+
 # Crawl data
 try:
     spider()
 except Exception as e:
     logger.error(e)
     logger.error("Crawl data failed.")
+
 # Display text
 try:
     display()

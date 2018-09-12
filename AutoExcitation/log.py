@@ -20,4 +20,4 @@ def setup_logging(default_path='logging.yaml', default_level=logging.INFO):
         logging.config.dictConfig(config)
     else:
         logging.basicConfig(level=default_level)
-        print(r'The input path doesn\'t exist')
+        print('The input path does not exist')
