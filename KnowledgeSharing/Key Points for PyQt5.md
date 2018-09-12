@@ -1,5 +1,6 @@
-###一、PyQt5 插件安装 （IDE：Pycharm）
-####1. Tools
+一、PyQt5 插件安装 （IDE：Pycharm）
+
+1. Tools
 (1) QtDesigner
 
 (2) PyUIC
@@ -7,11 +8,15 @@
 (3) PyRCC （本应用中暂时未用到）
 
 (4) pip install pyqt5-tools
-####2. Links
+
+2. Links
+
 (1) https://www.jianshu.com/p/344bdf61e69e
 
-###二、PyQt5 知识点
-####1. 窗口属性设置
+二、PyQt5 知识点
+
+1. 窗口属性设置
+
 (1) 无边框，隐藏任务栏图标，以桌面形式显示在最底层
 ```
 self.setWindowFlags(Qt.FramelessWindowHint |
@@ -46,7 +51,8 @@ self.tray_icon_menu.addAction(self.quitAction)
 self.tray_icon.setContextMenu(self.tray_icon_menu)
 self.tray_icon.show()
 ```
-####2. 文本标签属性设置
+2. 文本标签属性设置
+
 (1) 重新设置标签尺寸
 ```
 self.ui.label.resize((x1, y1), (x2, y2))
